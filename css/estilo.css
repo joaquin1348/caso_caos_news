@@ -1,6 +1,17 @@
 .iniciar-sesion {
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: 10px;
+	
+}
+
+.registrar {
+    padding: 9px 25px;
+    background-color: tomato;
     border: none;
     border-radius: 5px;
     cursor:pointer;
@@ -24,6 +35,9 @@
 .row h3{
     color: rgb(67, 70, 237);
 }
+
+
+
 .social-bar {
 	position: fixed;
 	right: 0;
@@ -34,9 +48,6 @@
 	align-items: flex-end;
 	z-index: 100;
 }
-
- barra social
-
 
 .icon {
 	color: white;
