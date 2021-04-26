@@ -1,183 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
-@import url();
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #24252A;
-}
-
-
-.blog {
-    display: grid;
-    grid-template-columns: 1fr 2fr repeat(2, 1fr);
-    grid-template-rows: repeat(4, 2fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
-    
-    .div1 { grid-area: 1 / 2 / 2 / 3; }
-    .div2 { grid-area: 1 / 3 / 2 / 4; }
-    .div3 { grid-area: 2 / 2 / 3 / 3; }
-    .div4 { grid-area: 2 / 3 / 3 / 4; }
-    .div5 { grid-area: 3 / 2 / 4 / 3; }
-    .div6 { grid-area: 3 / 3 / 4 / 4; }
-    .div7 { grid-area: 4 / 2 / 5 / 3; }
-    .div8 { grid-area: 4 / 3 / 5 / 4; }
-    .div9 { grid-area: 2 / 1 / 3 / 2; } 
-
-.blog img{
-    border-radius: 10px;
-}
-
-.blog p{
-    color: white;
-}
-.blog h1{
-    color: tomato;
-}
-
-.social-bar{
-    position: fixed;
-    right: 0;
-    top: 35%;
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    z-index: 100;
-}
-
-.icon{
-    color: white;
-    text-decoration: none;
-    padding: .7rem;
-    display: flex;
-    transition: all .5s;
-}
-.icon-facebook{
-    background: #2E406E;
-}
-.icon-twitter{
-    background: #339DC5;
-}
-.icon-youtube{
-    background: #E83028;
-}
-.icon-instagram{
-    background: #f3827e;
-}
-.icon:first-child{
-    border-radius: 1rem 0 0 0;
-}
-.icon:last-child{
-    border-radius: 0 0 0 1rem;
-}
-.icon:hover{
-    padding-right: 3rem;
-    border-radius: 1rem 0 0 1rem;
-    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
-}
-
-.div9{
-    position: relative;
-    overflow: hidden;
-    padding-top: 56.25%;
-    border:1px solid tomato;
-}
-
-.div9 iframe{
-    position: absolute;
-    top: 100;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    
-}
-li, a, button{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #edf0f1;
-    text-decoration: none;
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-}
-
-.logo {
-    cursor: pointer;
-    margin-right: auto;
-}
-
-
-.menu {
-    list-style: none;
-}
-
-.menu li {
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-.menu li a {
-    transition: all 0.3s ease 0s;
-}
-.menu li a:hover {
-    color: #0088a9;
-}
-
-
-button {
+.iniciar-sesion {
     padding: 9px 25px;
     background-color: rgba(0,136,169,1);
     border: none;
-    border-radius: 50px;
+    border-radius: 5px;
     cursor:pointer;
     transition: all 0.3s ease 0s;
-    margin-left: 20px;
+    margin-right: 150px;
 }
 
-button:hover{
-    background-color: rgba(173, 180, 182, 0.8);
+.destacado h1{
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+}
+.multimedia h1{
+    text-align: center;
+    text-decoration: none;
+    padding: 50px;
+}
+.row h2{
+    text-align: center;
+}
+.row h3{
+    color: rgb(67, 70, 237);
+}
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
 }
 
-nav form{
-    display: flex;
-    height: 40px;
-    border-radius: 2px;
-    padding: 2px;
-    background: white;
-    min-width: 18%!important;
-    border: 1px solid rgba(155,155,155,0.2);
+ barra social
+
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
 }
 
-nav form .search-data{
-    height: 100%;
-    width: 100%;
-    padding: 0 10px;
-    color: #fff;
-    font-weight: 500;
-    background: none;
-    border: none;
-}
-nav form button{
-    padding: 0 15px;
-    background: tomato;
-    border: none;
-    cursor: pointer;
-    font-size: 17px;
-    color: #fff;
-    border-radius: 2px;
+.icon-facebook {
+	background: #2E406E;
 }
 
-.contenedor {
-    color: red;
-    font-size: 10px;
-    text-align: left;
-    padding-top: 100px;
+.icon-twitter {
+	background: #339DC5;
+}
+
+.icon-youtube {
+	background: #E83028;
+}
+
+.icon-instagram {
+	background: #3F60A5;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
 }
