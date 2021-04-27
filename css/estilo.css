@@ -1,5 +1,8 @@
 @import url(noticias.css);
 @import url(galeria.css);
+*{
+	padding-top: 0px;
+}
 * img{
 	border-radius: 10px;
 }
