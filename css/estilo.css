@@ -1,3 +1,7 @@
+@import url(noticias.css);
+* img{
+	border-radius: 10px;
+}
 .iniciar-sesion {
     padding: 9px 25px;
     background-color: tomato;
@@ -24,19 +28,29 @@
     text-decoration: none;
     padding: 20px;
 }
+.destacado p{
+	text-align: center;
+}
 .multimedia h1{
     text-align: center;
     text-decoration: none;
     padding: 50px;
 }
+.multimedia{
+	border-radius: 5px;
+}
 .row h2{
     text-align: center;
 }
-.row h3{
+.multimedia h3{
     color: rgb(67, 70, 237);
 }
 
-
+.row a{
+	display: block;
+    text-align: center;
+    margin: auto;
+}
 
 .social-bar {
 	position: fixed;

@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+}
+#noticia1{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+#noticia2{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+#noticia3{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.row p,h4{
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+}
