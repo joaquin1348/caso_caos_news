@@ -27,6 +27,10 @@
     margin-right: 150px;
 }
 
+.periodistas{
+	justify-content: center;
+}
+
 .destacado h1{
     text-align: center;
     text-decoration: none;
